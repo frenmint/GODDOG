@@ -16,10 +16,10 @@ contract OTOKEN is ERC20, ERC20Burnable {
     /*===================================================================*/
     /*===========================  SETTINGS  ============================*/
 
-    string internal constant NAME = "GODDOG";  // name of OTOKEN
+    string internal constant NAME = "oGODDOG";           // name of OTOKEN
     string internal constant SYMBOL = "oGODDOG";         // symbol of OTOKEN
     
-    uint internal constant INITIAL_SUPPLY = 10000;   // initial supply of OTOKEN
+    uint internal constant INITIAL_SUPPLY = 10000;       // initial supply of OTOKEN
 
     /*===========================  END SETTINGS  ========================*/
     /*===================================================================*/
