@@ -9,18 +9,6 @@ import "contracts/interfaces/ITOKEN.sol";
 import "contracts/interfaces/IOTOKEN.sol";
 import "contracts/interfaces/IVoter.sol";
 
-/**
- * @title Minter
- * @author heesho
- * 
- * Mints OTOKEN and distributes them to the Voter (to diribute to gauges), the team
- * and the growth fund (VTOKEN stakers).
- * 
- * Mints OTOKEN every week starting with {weekly} OTOKENs per week and decreases by 1% every week
- * until it reaches tail emissions, which is a constant emission rate of OTOKENS per week.
- * 
- * Tail emissions are a constant value settable by governance.
- */
 contract Minter is Ownable {
     using SafeERC20 for IERC20;
 
