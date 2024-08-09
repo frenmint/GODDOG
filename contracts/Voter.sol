@@ -5,13 +5,13 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/Math.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "contracts/interfaces/IVTOKEN.sol";
-import "contracts/interfaces/IPlugin.sol";
-import "contracts/interfaces/IGauge.sol";
-import "contracts/interfaces/IBribe.sol";
-import "contracts/interfaces/IMinter.sol";
-import "contracts/interfaces/IGaugeFactory.sol";
-import "contracts/interfaces/IBribeFactory.sol";
+import "./interfaces/IVTOKEN.sol";
+import "./interfaces/IPlugin.sol";
+import "./interfaces/IGauge.sol";
+import "./interfaces/IBribe.sol";
+import "./interfaces/IMinter.sol";
+import "./interfaces/IGaugeFactory.sol";
+import "./interfaces/IBribeFactory.sol";
 
 contract Voter is ReentrancyGuard, Ownable {
 

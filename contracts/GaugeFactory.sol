@@ -4,7 +4,7 @@ pragma solidity 0.8.19;
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/math/Math.sol";
-import "contracts/interfaces/IVoter.sol";
+import "./interfaces/IVoter.sol";
 
 contract Gauge is ReentrancyGuard {
     using SafeERC20 for IERC20;
