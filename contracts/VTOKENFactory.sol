@@ -4,7 +4,7 @@ pragma solidity 0.8.19;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -20,8 +20,8 @@ contract VTOKEN is ERC20, ERC20Permit, ERC20Votes, ReentrancyGuard, Ownable {
     /*===================================================================*/
     /*===========================  SETTINGS  ============================*/
 
-    string internal constant NAME = 'GODDOG';      // Name of VTOKEN
-    string internal constant SYMBOL = 'vGODDOG';         // Symbol of VTOKEN
+    string internal constant NAME = 'veGODDOG';      // Name of VTOKEN
+    string internal constant SYMBOL = 'veGODDOG';         // Symbol of VTOKEN
 
     /*===========================  END SETTINGS  ========================*/
     /*===================================================================*/

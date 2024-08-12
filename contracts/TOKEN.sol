@@ -18,7 +18,7 @@ contract TOKEN is ERC20, ReentrancyGuard {
     /*===========================  SETTINGS  ============================*/
 
     string internal constant NAME = 'GODDOG';     // Name of TOKEN
-    string internal constant SYMBOL = '$oooOOO';       // Symbol of TOKEN
+    string internal constant SYMBOL = '$GODDOG';    // Symbol of TOKEN
 
     uint256 public constant PROTOCOL_FEE = 30;      // Swap and borrow fee: buy, sell, borrow
     uint256 public constant PROVIDER_FEE = 4000;    // Fee for the UI hosting provider
